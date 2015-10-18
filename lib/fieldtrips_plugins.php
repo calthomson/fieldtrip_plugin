@@ -1,15 +1,8 @@
 <?php
 /**
- * This file represents an example of the code that themes would use to register
- * the required plugins.
- *
- * It is expected that theme authors would copy and paste this code into their
- * functions.php file, and amend to suit.
- *
  * @see http://tgmpluginactivation.com/configuration/ for detailed documentation.
  *
  * @package    TGM-Plugin-Activation
- * @subpackage Example
  * @version    2.5.2
  * @author     Thomas Griffin, Gary Jones, Juliette Reinders Folmer
  * @copyright  Copyright (c) 2011, Thomas Griffin
@@ -35,7 +28,7 @@ function my_theme_register_required_plugins() {
 	// Array of plugin arrays. Required keys are name and slug.
 	$plugins = array(
 
-		// This is an example of how to include a plugin from the WordPress Plugin Repository.
+		// Include Leaflet Maps and Chat Lite plugins
 		array(
 			'name'      => 'Leaflet Maps Marker',
 			'slug'      => 'leaflet-maps-marker',
@@ -51,7 +44,7 @@ function my_theme_register_required_plugins() {
 
 	);
 
-	// Array of configuration settings. Amend each line as needed.
+	// Array of configuration settings.
 	$config = array(
 		'id'           => 'tgmpa',                 // Unique ID for hashing notices for multiple instances of TGMPA.
 		'default_path' => '',                      // Default absolute path to bundled plugins.
