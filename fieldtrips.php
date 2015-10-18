@@ -5,7 +5,6 @@ Plugin URI: caledonia.homeunix.org
 Description: A plugin that will create a custom post type displaying fieldtrips.
 Version: 1.0
 Author: UBC Flexible Learning Project
-Author URI: caledonia.homeunix.org
 */
 
 add_action( 'init', 'fieldtrip' );
